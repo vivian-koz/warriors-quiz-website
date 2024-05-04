@@ -3,6 +3,10 @@ body {
     padding: 0;
     font-family: "Sedan SC", serif;
     text-align: center;
+    background-image: url("https://i.pinimg.com/originals/55/3b/75/553b75208dd338eba699e09bc7a33943.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .card {
