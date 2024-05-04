@@ -7,7 +7,7 @@ function quizQstn(questionNumber) {
     card.classList.add("card");
     let title = document.createElement("h2");
     title.classList.add("title");
-    title.innerText = "Question " + questionNumber;
+    title.innerText = "Question " + questionNumber + ":";
     card.append(title);
     document.body.appendChild(card);
 
