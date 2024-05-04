@@ -19,7 +19,7 @@ function quizQstn(questionNumber) {
     // add proper question
 
     if (questionNumber = 1) {
-        question.innerText = "hello world, this is a test";
+        question.innerText = "Which pray would you like to eat for dinner?";
     }
 
     if (questionNumber = 2) {
