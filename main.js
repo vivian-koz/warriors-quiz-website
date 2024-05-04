@@ -1,4 +1,7 @@
 function quizQstn(questionNumber) {
+    //remove welcome text
+    removeWelcomeText();
+
     // change title
     document.title = "Question " + questionNumber;
 
@@ -7,14 +10,25 @@ function quizQstn(questionNumber) {
     card.classList.add("card");
     let title = document.createElement("h2");
     title.classList.add("title");
-    let question = document.createElement("p");
+    var question = document.createElement("p");
     title.innerText = "Question " + questionNumber + ":";
     card.append(title);
     card.append(question);
     document.body.appendChild(card);
 
-    //remove welcome text
-    removeWelcomeText();
+    // add proper question
+
+    if (questionNumber = 1) {
+        question.innerText = "hello world, this is a test";
+    }
+
+    if (questionNumber = 2) {
+
+    }
+
+    if (questionNumber = 3) {
+
+    }
 }
 
 function removeWelcomeText() {
