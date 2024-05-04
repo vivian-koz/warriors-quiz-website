@@ -16,10 +16,6 @@ function quizQstn(questionNumber) {
 }
 
 function removeWelcomeText() {
-    let h2 = document.querySelector("body > h2");
-    let p = document.querySelector("body > p");
-    let button = document.querySelector("body > button");
-    h2.style.display = "none";
-    p.style.display = "none";
-    button.style.display = "none";
+    let welcomeCard = document.querySelector("body > div.welcome-card");
+    welcomeCard.style.display = "none";
 }
