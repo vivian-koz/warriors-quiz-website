@@ -12,6 +12,10 @@ function quizQstn(questionNumber) {
     document.body.appendChild(card);
 
     //remove welcome text
+    removeWelcomeText();
+}
+
+function removeWelcomeText() {
     let h2 = document.querySelector("body > h2");
     let p = document.querySelector("body > p");
     let button = document.querySelector("body > button");
