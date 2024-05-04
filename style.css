@@ -6,8 +6,16 @@ body {
     background-image: url("https://i.pinimg.com/originals/55/3b/75/553b75208dd338eba699e09bc7a33943.jpg");
 }
 
+.welcome-card {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid rgb(184, 143, 180);
+    border-radius: 30px;
+}
+
 .card {
     margin: 20px;
-    padding: 10px;
-    background-color: red;
+    padding: 20px;
+    border: 2px solid rgb(184, 143, 180);
+    border-radius: 30px;
 }
